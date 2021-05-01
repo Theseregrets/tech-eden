@@ -1,0 +1,78 @@
+.hero__img{
+  position: absolute;
+  height: 92vh;
+  top: 4.5rem;
+
+}
+
+
+.hero{
+  clip-path: polygon(20% 0%, 100% 0, 100% 100%, 59% 100%);
+  background: var(--color-white);
+  height: 100vh;
+  position: relative;
+  padding: 0 14%;
+  overflow: hidden;
+
+}
+.hero__text{
+  padding: 7% 0;
+}
+.google-icon{
+  width: 2rem;
+}
+.form__input,
+.form__input:visited,
+.form__input:active {
+  padding: 1rem 2rem;
+  margin: 1rem;
+  border-radius: 4rem;
+  border: solid var(--color-black-light)
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .hero{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    text-align: center;
+    margin: 0;
+    background-image: url('../../assets/TechEden.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100vh;
+    padding: 0
+  }
+  .hero__text{
+    padding: 10%;
+    height: 100vh;
+    background-image: linear-gradient(
+    rgba(42,53,134, .1),
+    rgba(42,53,134, .5),
+    rgba(42,53,134, 1));
+
+  }
+  label{
+    margin: 15rem;
+  }
+  form{
+    margin: 7rem 0;
+  }
+  img{
+    display: none;
+  }
+  .form__input{
+    width: 50rem;
+    padding: 2rem 5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+
+  }
+  .form__input{
+    padding: 1rem 3rem !important;
+    width: 30rem !important;
+  }
+
+}

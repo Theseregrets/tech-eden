@@ -1,0 +1,54 @@
+.main{
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)),
+  url('../../assets/Subtle-Prism.svg');
+  overflow: hidden;
+}
+
+#nav{
+  color: var(--color-white);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 4rem;
+  width: 100%;
+  background: var(--color-primary)
+}
+.nav h1{
+  padding: 2rem 0;
+}
+.nav__icon{
+  display: flex;
+}
+.nav__icon p{
+  padding: 2rem;
+}
+
+
+.Container{
+  padding: 7% 14%;
+  text-align: center;
+}
+.box{
+  display: inline-block;
+  width: 60rem;
+  border-radius: 4rem;
+  margin: 2rem 5rem;
+  box-shadow: 12px 10px 27px -12px rgba(0,0,0,0.57);
+-webkit-box-shadow: 12px 10px 27px -12px rgba(0,0,0,0.57);
+-moz-box-shadow: 12px 10px 27px -12px rgba(0,0,0,0.57);
+background: var(--color-white)
+}
+
+@media only screen and (max-width: 1000px) {
+  body{
+    font-size: 2rem !important;
+  }
+  .box{
+    display: flex !important;
+    width: 40rem;
+  }
+  .Container{
+    padding: 0
+  }
+}

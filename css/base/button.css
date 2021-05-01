@@ -1,0 +1,46 @@
+.button{
+  padding: 1rem 3rem;
+  margin: 1rem;
+  background: var(--color-gray);
+  width: 30rem;
+  border: solid var(--color-black-light) .35rem;
+  border-radius: 4rem;
+  font-size: 1.8rem
+
+}
+
+.button:hover,
+.btn:hover{
+  cursor: pointer;
+  background: var(--color-black-light);
+  color: var(--color-white)
+}
+
+.btn{
+  margin: 3rem;
+  padding: 0 1.5rem;
+  border-radius: 50%;
+  border: solid var(--color-black-light) .8rem;
+  font-size: 3rem
+}
+@media only screen and (max-width: 1000px) {
+
+  button{
+    padding: 2rem 4rem !important;
+    width: 50rem !important;
+    font-size: 2.5rem !important;
+  }
+  .btn{
+    width: 4rem !important;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+
+  button{
+    padding: 1rem 3rem !important;
+    width: 30rem !important;
+    font-size: 2rem !important;
+  }
+
+}
