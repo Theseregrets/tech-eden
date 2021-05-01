@@ -55,4 +55,9 @@ background: var(--color-white)
   .Container{
     padding: 0
   }
+  #chartdiv {
+    width: 100%;
+    
+    margin: 0;
+  }
 }
