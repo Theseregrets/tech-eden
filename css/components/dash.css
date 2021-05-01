@@ -39,7 +39,11 @@
 -moz-box-shadow: 12px 10px 27px -12px rgba(0,0,0,0.57);
 background: var(--color-white)
 }
-
+#chartdiv {
+  width: 600px;
+  height: 375px;
+  margin: 0 30rem;
+}
 @media only screen and (max-width: 1000px) {
   body{
     font-size: 2rem !important;
